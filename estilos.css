@@ -1,0 +1,51 @@
+/* Estilo geral da página */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 40px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Estilo para H1 */
+h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+/* Estilo para H2 */
+h2 {
+  font-size: 2em;
+  color: #34495e;
+  margin-top: 30px;
+}
+
+/* Estilo para H3 */
+h3 {
+  font-size: 1.75em;
+  color: #7f8c8d;
+  margin-top: 25px;
+}
+
+/* Estilo para H4 */
+h4 {
+  font-size: 1.5em;
+  color: #95a5a6;
+  margin-top: 20px;
+}
+
+/* Estilo para H5 */
+h5 {
+  font-size: 1.25em;
+  color: #bdc3c7;
+  margin-top: 15px;
+}
+
+/* Estilo para H6 */
+h6 {
+  font-size: 1em;
+  color: #dcdcdc;
+  margin-top: 10px;
+}
