@@ -4,8 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre nos</title>
+
+     <style>
+        /* Estilo aplicado ao corpo da página */
+        body {
+            font-family: 'Montserrat', sans-serif; /* Usa a fonte Montserrat ou uma sans-serif padrão */
+            color: #00ffff; /* Cor do texto: ciano */
+            background: linear-gradient(to bottom right, #000000, #1a1a1a); /* Fundo em degradê do preto ao cinza escuro */
+            margin: 0; /* Remove margens padrão do navegador */
+            padding: 40px; /* Espaçamento interno ao redor do conteúdo */
+            display: flex; /* Usa Flexbox para organizar os elementos */
+            flex-direction: column; /* Coloca os elementos em coluna */
+            align-items: center; /* Centraliza os itens horizontalmente */
+            text-align: center; /* Alinha o texto ao centro */
+            min-height: 100vh; /* Garante que o body tenha no mínimo 100% da altura da tela */
+            box-sizing: border-box; /* Inclui padding e borda no cálculo do tamanho dos elementos */
+        }
+
+        /* Estilo para todos os títulos (h1 até h6) */
+        h1, h2, h3, h4, h5, h6 {
+            margin: 10px 0; /* Espaçamento vertical */
+            color: #f8dc8e; /* Cor amarela suave */
+            text-shadow: 1px 1px 4px rgba(0, 255, 255, 0.4); /* Sombra no texto com leve brilho ciano */
+        }
+
+        /* Estilo da imagem */
+        img {
+            max-width: 90%; /* Limita a largura da imagem a 90% do contêiner */
+            height: auto; /* Mantém a proporção original da imagem */
+            border-radius: 12px; /* Bordas arredondadas */
+            margin-top: 30px; /* Espaço acima da imagem */
+            box-shadow: 0 8px 20px rgba(0, 255, 255, 0.2); /* Sombra externa suave azul/ciano */
+            transition: transform 0.3s ease; /* Suaviza a transformação ao passar o mouse */
+        }
+
+        img:hover {
+            transform: scale(1.05); /* Aumenta a imagem em 5% quando o mouse passa por cima */
+        }
+
+        /* Linha decorativa no rodapé usando pseudo-elemento */
+        body::after {
+            content: ''; /* Cria um conteúdo vazio */
+            display: block; /* Exibe como bloco */
+            width: 100%; /* Ocupa toda a largura da tela */
+            height: 20px; /* Altura da linha decorativa */
+            background-color: rgb(189, 223, 40); /* Cor amarela esverdeada */
+            margin-top: 60px; /* Espaço acima da linha */
+        }
+    </style>
 </head>
 <body>
-    
+    <h2>Nos somos</h2>
+
+
+    <br>
+    <br>
+    <br>
+        <img src="https://images.pexels.com/photos/842711/pexels-photo-842711.jpeg?cs=srgb&dl=pexels-christian-heitz-285904-842711.jpg&fm=jpg"
+        alt="Imagem do site">
+
+
+    <a href="index.html">
+  <button>Home</button>
+</a>
 </body>
 </html>
